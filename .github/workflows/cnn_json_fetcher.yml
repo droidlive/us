@@ -2,7 +2,7 @@ name: Fetch CNN Turk Data Every 2 Minutes
 
 on:
   schedule:
-    - cron: "*/2 * * * *"  # Her iki dakikada bir çalışır
+    - cron: "*/59 * * * *"  # Her iki dakikada bir çalışır
   workflow_dispatch:  # Manuel tetikleme için
 
 jobs:
