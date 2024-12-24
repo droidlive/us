@@ -24,9 +24,13 @@ jobs:
           python3 cnn_json_fetcher.py
 
       - name: Dosyayı GitHub'a Yükle
-        run: |
-          git config --global user.name "CNN JSON Bot"
-          git config --global user.email "example@example.com"
-          git add veri.json
-          git commit -m "veri.json dosyası güncellendi"
-          git push
+  env:
+    GH_PAT: ${{ secrets.GH_PAT }}
+  run: |
+    git config --global user.name "CNN JSON Bot"
+    git config --global user.email "example@example.com"
+    git remote set-url origin https://x-access-token:${GH_PAT}@github.com/droidlive/us.git
+    git add veri.json
+    git commit -m "veri.json dosyası güncellendi"
+    git push
+
