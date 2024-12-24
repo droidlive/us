@@ -8,9 +8,9 @@
             "DefaultServiceUrl": "https://live.duhnet.tv",
             "ServiceName": "",
             "ServiceUrl": "https://live.duhnet.tv",
-            "SecurePath": "/S2/HLS_LIVE/cnnturknp/playlist.m3u8?&live=true&app=com.cnnturk&st=3bAgax23B20uRQctbBz04g&e=1735013534",
+            "SecurePath": "/S2/HLS_LIVE/cnnturknp/playlist.m3u8?&live=true&app=com.cnnturk&st=Fcbp89G6UjnY7DGZM18faA&e=1735015134",
             "CheckPath": "/status.json",
-            "UserIp": "20.109.60.254",
+            "UserIp": "20.161.76.229",
             "PlayLog": {
                 "Url": "/PlayLog.ashx",
                 "Periods": [
@@ -39,7 +39,7 @@
         "HasPackage": ""
     },
     "Package": null,
-    "Ad": "[{\"id\":\"preroll\",\"offset\":\"start\",\"type\":\"linear\",\"url\":\"https://pubads.g.doubleclick.net/gampad/ads?iu=/9927946,22420855682/cnnturk/canliyayin/preroll&description_url=https://www.cnnturk.com/canli-yayin&tfcd=0&npa=0&sz=640x360&gdfp_req=1&output=vast&unviewed_position_start=1&env=vp&impl=s&correlator=1735002734&&cmsid=2521255&vid=62d6814670380e2cdc7c124c\"},{\"id\":\"overlay\",\"offset\":\"00:00:05.000\",\"type\":\"nonlinear\",\"url\":\"\"}]",
+    "Ad": "[{\"id\":\"preroll\",\"offset\":\"start\",\"type\":\"linear\",\"url\":\"https://pubads.g.doubleclick.net/gampad/ads?iu=/9927946,22420855682/cnnturk/canliyayin/preroll&description_url=https://www.cnnturk.com/canli-yayin&tfcd=0&npa=0&sz=640x360&gdfp_req=1&output=vast&unviewed_position_start=1&env=vp&impl=s&correlator=1735004334&&cmsid=2521255&vid=62d6814670380e2cdc7c124c\"},{\"id\":\"overlay\",\"offset\":\"00:00:05.000\",\"type\":\"nonlinear\",\"url\":\"\"}]",
     "Subtitles": [],
     "Title": "CNN TÜRK Canlı Yayını",
     "IxName": "cnn-turk-canli-yayini",
