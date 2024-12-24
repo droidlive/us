@@ -23,10 +23,11 @@ jobs:
         run: |
           python3 cnn_data.py
 
-      - name: Dosyayı GitHub'a Yükle
+      - name: GitHub'a Yükle
         run: |
           git config --global user.name "CNN Data Fetcher"
           git config --global user.email "example@example.com"
+          git remote set-url origin https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/${{ github.repository }}.git
           git add veri.json
           git commit -m "CNN Türk veri güncellemesi"
           git push
