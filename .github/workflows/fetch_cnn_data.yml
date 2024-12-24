@@ -1,4 +1,4 @@
-name: Fetch CNN Turk Data Every 2 Minutes
+name: Fetch CNN JSON Every 2 Minutes
 
 on:
   schedule:
@@ -6,28 +6,27 @@ on:
   workflow_dispatch:  # Manuel tetikleme için
 
 jobs:
-  fetch-data:
+  fetch-json:
     runs-on: ubuntu-latest
 
     steps:
       - name: Depoyu Klonla
         uses: actions/checkout@v3
 
-      - name: Python Kurulumu ve Bağımlılıklar
+      - name: Python Kurulumu
         run: |
           sudo apt update
           sudo apt install -y python3 python3-pip
           pip install requests
 
-      - name: CNN API'den Veri Al ve Kaydet
+      - name: JSON Verisini Al ve Kaydet
         run: |
-          python3 cnn_data.py
+          python3 cnn_json_fetcher.py
 
-      - name: GitHub'a Yükle
+      - name: Dosyayı GitHub'a Yükle
         run: |
-          git config --global user.name "CNN Data Fetcher"
+          git config --global user.name "CNN JSON Bot"
           git config --global user.email "example@example.com"
-          git remote set-url origin https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/${{ github.repository }}.git
           git add veri.json
-          git commit -m "CNN Türk veri güncellemesi"
+          git commit -m "veri.json dosyası güncellendi"
           git push
