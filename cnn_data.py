@@ -6,7 +6,7 @@ def fetch_and_save_json(url, output_file):
     Verilen URL'den JSON verisini alır ve bir dosyaya kaydeder.
     """
     try:
-        response = requests.get(url)
+        response = requests.post(url)
         if response.status_code == 200:
             data = response.json()
             with open(output_file, 'w', encoding='utf-8') as file:
@@ -19,6 +19,6 @@ def fetch_and_save_json(url, output_file):
 
 if __name__ == "__main__":
     # Sabit URL ve çıktı dosyası
-    url = "https://www.cnnturk.com/api/cnnvideo/media?id=62d6814670380e2cdc7c124c&isMobile=false"
+    url = "https://www.cnbce.com/api/live-stream/source?test=1"
     output_file = "veri.json"
     fetch_and_save_json(url, output_file)
