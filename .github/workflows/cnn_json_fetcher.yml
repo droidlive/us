@@ -29,7 +29,7 @@ jobs:
   run: |
     git config --global user.name "CNN JSON Bot"
     git config --global user.email "example@example.com"
-    git remote set-url origin https://x-access-token:${GH_PAT}@github.com/<kullanıcı_adı>/<depo_adı>.git
+    git remote set-url origin https://x-access-token:${GH_PAT}@github.com/droidlive/us.git
     git add veri.json
     git commit -m "veri.json dosyası güncellendi"
     git push
