@@ -1,4 +1,4 @@
 {
-    "check": false,
-    "source": "https://cnbc-e.daioncdn.net/cnbc-e/cnbc-e.m3u8?app=web&max_res=720&st=Le1SRxg0DA57gJI8ZygqDw&e=1735046465"
+    "check": true,
+    "source": "https://cnbc-e.daioncdn.net/cnbc-e/cnbc-e.m3u8?app=web&st=zPKV0WvbDB_GtbRZO3xJUg&e=1735049962"
 }
