@@ -1,1 +1,61 @@
-
+{
+    "Id": "62d6814670380e2cdc7c124c",
+    "Url": "/canli-yayin",
+    "Media": {
+        "Controller": "oms",
+        "BuderTime": 32,
+        "Link": {
+            "DefaultServiceUrl": "https://live.duhnet.tv",
+            "ServiceName": "",
+            "ServiceUrl": "https://live.duhnet.tv",
+            "SecurePath": "/S2/HLS_LIVE/cnnturknp/playlist.m3u8?&live=true&app=com.cnnturk&st=3bAgax23B20uRQctbBz04g&e=1735013534",
+            "CheckPath": "/status.json",
+            "UserIp": "20.109.60.254",
+            "PlayLog": {
+                "Url": "/PlayLog.ashx",
+                "Periods": [
+                    0,
+                    25,
+                    50,
+                    75,
+                    100,
+                    103
+                ]
+            },
+            "HeartBeat": {
+                "Url": "/HeartBeat.ashx",
+                "Interval": 10
+            },
+            "AssetId": null,
+            "ContentId": null
+        },
+        "Image": "https://image.cnnturk.com/i/cnnturk/75/800x450/632c0f1e214ed8238c8f77af.jpg"
+    },
+    "User": {
+        "Name": "",
+        "SessionId": "",
+        "AnonymId": "",
+        "IsAuthenticated": "",
+        "HasPackage": ""
+    },
+    "Package": null,
+    "Ad": "[{\"id\":\"preroll\",\"offset\":\"start\",\"type\":\"linear\",\"url\":\"https://pubads.g.doubleclick.net/gampad/ads?iu=/9927946,22420855682/cnnturk/canliyayin/preroll&description_url=https://www.cnnturk.com/canli-yayin&tfcd=0&npa=0&sz=640x360&gdfp_req=1&output=vast&unviewed_position_start=1&env=vp&impl=s&correlator=1735002734&&cmsid=2521255&vid=62d6814670380e2cdc7c124c\"},{\"id\":\"overlay\",\"offset\":\"00:00:05.000\",\"type\":\"nonlinear\",\"url\":\"\"}]",
+    "Subtitles": [],
+    "Title": "CNN TÜRK Canlı Yayını",
+    "IxName": "cnn-turk-canli-yayini",
+    "Tags": "canlı yayın,canlı yayın izle,canlıyayın",
+    "ContentType": "Live",
+    "Ancestors": [
+        {
+            "Id": "52b45d2568f7320974e58d1b",
+            "ContentType": "Folder",
+            "Title": "Canlı Yayın",
+            "Path": "/",
+            "IxName": "canli-yayin",
+            "SelfPath": "/canli-yayin/",
+            "Url": "/canli-yayin-dizin",
+            "Order": null,
+            "IsBreadCrumb": true
+        }
+    ]
+}
